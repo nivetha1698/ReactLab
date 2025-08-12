@@ -6,14 +6,16 @@ import GreetingClass from './core-concepts/02-components/GreetingClass'
 import JSXExample from './core-concepts/03-jsx/jsxExample'
 import PropsExample from './core-concepts/04-props/propsExample'
 import StateExample from './core-concepts/05-State/stateExample'
+import EventHandlingExample from './core-concepts/06-event-handling/eventHandlingExample'
 
 function App() {
 //   return <HelloWorld />
 //   return <Greeting />
 //   return <GreetingClass/>
 //   return <JSXExample/> 
-//  return <PropsExample technology="React JS" heading="Ithu oru property example"/> // as we can send as many as properties if needed.
-return <StateExample/>
+//   return <PropsExample technology="React JS" heading="Ithu oru property example"/> // as we can send as many as properties if needed.
+//   return <StateExample/>
+return <EventHandlingExample/>
 }
 
 
