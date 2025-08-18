@@ -15,8 +15,7 @@ export default function TaskList({ tasks, toggleTask, deleteTask }) {
           <span
             onClick={() => toggleTask(task.id)}
             className="flex-1">
-                
-            {task.text}
+              {task.text}
           </span>
 
           <TrashIcon
